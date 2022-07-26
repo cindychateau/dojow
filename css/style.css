@@ -1,6 +1,7 @@
 * { /*RESET CSS*/
     margin: 0;
     padding: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -75,4 +76,28 @@ h1, nav a {
 
 .minTemp {
     color: blue;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.cookie {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: lightgray;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.cookie img {
+    margin-left: 10px;
+}
+
+.cookie button {
+    margin-right: 10px;
 }
