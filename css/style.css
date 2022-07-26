@@ -52,4 +52,27 @@ h1, nav a {
     background-color: lightgrey;
     /* height: 100px; */
     border: 1px solid black;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.day img {
+    border-radius: 50%;
+    width: 100px;
+    margin: 25px 0;
+    border: 1px solid black;
+}
+
+.temperatures {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.maxTemp {
+    color: red;
+}
+
+.minTemp {
+    color: blue;
 }
